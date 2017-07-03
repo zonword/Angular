@@ -132,7 +132,11 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
 ```
 
 ## Factory
-   Voici comment j'ecris mon Factory principale
+   Voici comment j'ecris mon Factory principale, généralement contient tout les correspondance des mes API.
+   classeA peut avoir tout les correspondance avec les API Youtube 
+   ClasseB de facebook, etc
+   
+   Je n'aurais a importer qu'un seul fichier pour avoir tout mes API
    
 ```Javascript
 (function() {
@@ -215,7 +219,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
 ```
 
 ## Controller
-   exemple d'un Controller
+   exemple d'un Controller pour echanger avec ma vue
 
 ```Javascript
 (function(){
