@@ -192,7 +192,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
            var Get = () => {
               var q = $q.defer();
               $http({method: 'GET', url: 'http://api_site_internet/'})
-                 .thne(res => {
+                 .then(res => {
                     q.resolve(res)
                  }, err => {
                     q.reject(err)
@@ -211,7 +211,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
            var Get = () => {
               var q = $q.defer();
               $http({method: 'GET', url: 'http://api_site_internet/'})
-                 .thne(res => {
+                 .then(res => {
                     q.resolve(res)
                  }, err => {
                     q.reject(err)
