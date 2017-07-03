@@ -101,6 +101,43 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
   console.log("Serveur web en cour");
 });
 ```
+
+```Html
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Materiel</title>
+        <link href="lib/bootswatch/cerulean/bootstrap.css" rel="stylesheet">
+    </head>
+    <body ng-app="myApp">
+        
+        <div class="wrapper">
+            <div ng-view></div>
+        </div>
+        <!--lib-->
+        <script type="text/javascript" src="http://back-office-du-site:2016/socket.io/socket.io.js"></script>
+        <script src="lib/jquery/dist/jquery.min.js"></script>
+
+        <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/angular-route/angular-route.min.js"></script>
+        <script src="lib/angular-resource/angular-resource.min.js"></script>
+        <script src="lib/angular-cookies/angular-cookies.min.js"></script>
+        <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
+        <script src="lib/angular-touch/angular-touch.min.js"></script>
+        <script src="lib/angular-animate/angular-animate.min.js"></script>
+
+        <script src="lib/angular-socket-io/socket.js"></script>
+        
+        <!--Main-->
+        <script src="js/app.js"></script>
+        <script src="factory/MainFactory.js"></script>
+        <script src="vue/page1/list/Page1ListCtrl.js"></script>
+    </body>
+</html>
+```
    
 ## App
    App.js est la base de notre projet
