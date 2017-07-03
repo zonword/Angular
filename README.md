@@ -30,7 +30,6 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "colors": "^1.1.2",
     "express": "^4.13.4",
     "http": "^0.0.0",
     "request": "^2.69.0"
