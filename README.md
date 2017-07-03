@@ -17,7 +17,6 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    1. [App](#app) App
    1. [Factory](#factory) Creer une factory
    1. [Controller](#controller) Répétition d'évenement
-   1. [ArrayJson](#arrayjson) atteindre les différente clée d'un tableau JSON
 
 ## Package
    Contient la parti back qui permet d'exécuter mon projet
