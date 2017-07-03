@@ -14,6 +14,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    1. [Package](#package) package
    1. [Bower](#bower) Bower
    1. [Server](#server) Permet de lancer mon projet
+   1. [Index](#server) Index.html
    1. [App](#app) App
    1. [Factory](#factory) Creer une factory
    1. [Controller](#controller) Répétition d'évenement
@@ -101,6 +102,9 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
   console.log("Serveur web en cour");
 });
 ```
+
+## Index
+   Index.html la vue principale
 
 ```Html
 <html>
