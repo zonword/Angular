@@ -82,7 +82,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
 ```
 
 ## Server
-   Contient tout mes libraire pour le front
+   Le strict minimum pour lancer le projet sur le port 4000
    
 ```Javascript
 var express = require('express');
