@@ -98,6 +98,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
     "angular-sanitize": "^1.5.3",
     "angular-touch": "^1.5.3",
     "angular-animate": "^1.5.3",
+    "anychart-angularjs": "^1.1.0",
     "bootstrap": "^3.3.6",
     "bootswatch": "^3.3.6",
     "angular-socket-io": "^0.7.0",
