@@ -11,6 +11,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
 
 ## Sommaire
 
+   1. [Pres-requis](#pres-requis) pre-requis
    1. [Package](#package) package
    1. [Bower](#bower) Bower
    1. [Server](#server) Permet de lancer mon projet
@@ -18,6 +19,31 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    1. [App](#app) App
    1. [Factory](#factory) Creer une factory
    1. [Controller](#controller) Répétition d'évenement
+
+## pre-requis
+   Dans un premier il faut que je m'adapte à mon environement de developement de DEV qui m'est fournis dans les société ou je suis,
+   Mais bien-sur on est loin des nouvelle technos comme `container` du nodejs installer, voir un système d'exploitation qui n'est plus n'est pas récent pour ne pas dire maintenu, malheureusement ça existe
+   
+   ### Sécurité
+   Il arrive que DEV et SYSTEM ce chamaille pour la mise en place d'un nouvelle outil, le DEV n'a pas forcément concience de la sécurité, et de retrouve restreint voir à tout développer dans le cloud et laisser le SYSTEM installer une fois le projet terminé
+   
+   #### PROXY
+   Donnée les acces a tout les projet l'acces vers l'exterieur n'est pas conceillé, il faut pouvoir ciblé les projet qui on besoin d'atteinte les reseaux extérieur à l'entreprise, une fois les adresses IP des proxy sont donnée par les équipes il faut pouvoir le faire localement au projet
+   
+   .bowerrc
+   ```Javascript
+      {
+        "proxy": "http://mon-proxy.com:port",
+        "https-proxy":"http://mon-proxy.com:port"
+      }
+   ```
+   
+   .npmrc
+   ```Javascript
+      proxy=http://proxy.leader-sys.com:80
+      https-proxy=http://proxy.leader-sys.com:80
+
+   ```
 
 ## Package
    Contient la parti back qui permet d'exécuter mon projet
