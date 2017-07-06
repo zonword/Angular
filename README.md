@@ -133,6 +133,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
 
 ## Index
    Index.html la vue principale
+   QUOI ? anychart mais le lien TRIAL pour le mode gratuit c'est moche pour de la DataViz, Mon secret c'est un petit peu de `display none` à quelque endroit ainsi que la supprersion de certain diplay dans librairie et hop le tour est joué, certain numero 1 mondiale aime bien utiliser `amcharts` je n'ai pas de préférence particulière
 
 ```Html
 <html>
