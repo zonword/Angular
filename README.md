@@ -101,6 +101,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
     "anychart": "^7.14.3",
     "anychart-angularjs": "^1.1.0",
     "bootstrap": "^3.3.6",
+    "bootstrap-table": "^1.11.1",
     "bootswatch": "^3.3.6",
     "angular-socket-io": "^0.7.0",
     "socket.io-client": "^1.4.5"
@@ -141,6 +142,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Materiel</title>
         <link href="lib/bootswatch/cerulean/bootstrap.css" rel="stylesheet">
+        <link href="lib/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet">
     </head>
     <body ng-app="myApp">
         
@@ -152,16 +154,20 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
         <script src="lib/jquery/dist/jquery.min.js"></script>
 
         <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="lib/bootstrap-table/dist/bootstrap-table.min.js"></script>
+        <script src="lib/bootstrap-table/dist/locale/bootstrap-table-fr-FR.min.js"></script>
+        
         <script src="lib/angular/angular.min.js"></script>
-        <script src="lib/anychart-angularjs/dist/anychart-angularjs.min.js"></script>
-        <script src="lib/anychart/dist/anychart-bundle.min.js"></script>
         <script src="lib/angular-route/angular-route.min.js"></script>
         <script src="lib/angular-resource/angular-resource.min.js"></script>
         <script src="lib/angular-cookies/angular-cookies.min.js"></script>
         <script src="lib/angular-sanitize/angular-sanitize.min.js"></script>
         <script src="lib/angular-touch/angular-touch.min.js"></script>
         <script src="lib/angular-animate/angular-animate.min.js"></script>
-
+        
+        <script src="lib/anychart-angularjs/dist/anychart-angularjs.min.js"></script>
+        <script src="lib/anychart/dist/anychart-bundle.min.js"></script>
+        
         <script src="lib/angular-socket-io/socket.js"></script>
         
         <!--Main-->
