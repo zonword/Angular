@@ -98,6 +98,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
     "angular-sanitize": "^1.5.3",
     "angular-touch": "^1.5.3",
     "angular-animate": "^1.5.3",
+    "anychart": "^7.14.3",
     "anychart-angularjs": "^1.1.0",
     "bootstrap": "^3.3.6",
     "bootswatch": "^3.3.6",
@@ -152,6 +153,8 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
 
         <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="lib/angular/angular.min.js"></script>
+        <script src="lib/anychart-angularjs/dist/anychart-angularjs.min.js"></script>
+        <script src="lib/anychart/dist/anychart-bundle.min.js"></script>
         <script src="lib/angular-route/angular-route.min.js"></script>
         <script src="lib/angular-resource/angular-resource.min.js"></script>
         <script src="lib/angular-cookies/angular-cookies.min.js"></script>
@@ -176,7 +179,7 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
 (function() {
     "use strict";
     
-    angular.module('myApp', ['btford.socket-io','ngRoute','MainFactory'])
+    angular.module('myApp', ['btford.socket-io','ngRoute','anychart-angularjs','MainFactory'])
     //.constant('CONSTANT', { MODE: "TEST", URL: "http://back-office-TEST-du-site/", SOCKET: "http://back-office-TEST-du-site:2016" })
     .constant('CONSTANT', { MODE: "PROD", URL: "http://back-office-du-site/", SOCKET: "http://back-office-du-site:2016" })
     .config(config)
