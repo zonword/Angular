@@ -225,9 +225,32 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
         
         ClasseA.$inject = ['$q','$http','CONSTANT'];
         function ClasseA($q,$http,CONSTANT) {
+           var url      = CONSTANT.URL+'ClasseA.php';
+           var config   = {
+                headers: {
+                    "Accept": "application/json;charset=utf-8",
+                    "Accept-Charset":"charset=utf-8"
+                }
+            };
+           
            var Get = () => {
               var q = $q.defer();
-              $http({method: 'GET', url: 'http://api_site_internet/'})
+              $http({method: 'GET', url: url, params: { action: "Get"} })
+                 .then(res => {
+                    q.resolve(res)
+                 }, err => {
+                    q.reject(err)
+                 });
+              return q.promise;
+           }
+           
+           var Set = (id,modif) => {
+              var q = $q.defer();
+              var data = {
+                 id : id,
+                 modif : modif
+              }
+              $http({ method: 'POST', url: url, params: { action: "Set" }, data: data, config: config })
                  .then(res => {
                     q.resolve(res)
                  }, err => {
