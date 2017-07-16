@@ -101,7 +101,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
     "anychart": "^7.14.3",
     "anychart-angularjs": "^1.1.0",
     "bootstrap": "^3.3.6",
-    "angular-ui-grid" "^4.0.6",
+    "angular-ui-grid": "^4.0.6",
     "bootswatch": "^3.3.6",
     "angular-socket-io": "^0.7.0",
     "socket.io-client": "^1.4.5"
