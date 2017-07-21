@@ -16,6 +16,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    1. [Bower](#bower) Bower
    1. [Server](#server) Permet de lancer mon projet
    1. [Index](#server) Index.html
+   1. [Css](#css) style.css
    1. [App](#app) App
    1. [Factory](#factory) Creer une factory
    1. [Controller](#controller) Répétition d'évenement
@@ -177,6 +178,26 @@ app.listen(process.env.PORT || 4000, process.env.IP || "0.0.0.0", function(){
         <script src="vue/page1/list/Page1ListCtrl.js"></script>
     </body>
 </html>
+```
+
+## CSS
+   Style.css est juste pour changer les couleur de base de notre boostrap tout blanc qui agresse nos yeux
+
+```Css
+body {
+   border-color      : #1abc9c;
+   color             : white;
+   background-color  : #2c3e50;
+}
+
+vert {
+   color             : #27ae60;
+}
+
+rouge {
+   color             : #F62459;
+}
+
 ```
    
 ## App
