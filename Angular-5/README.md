@@ -1,4 +1,4 @@
-# Angular4
+# Angular5
 Mes notes sur angular5
 
 ## Installation de nodejs
@@ -27,7 +27,7 @@ npm install -g @angular/cli
 ### Creation d'un projet
 
 ```batch
-ng new my-app
+ng new my-app --style=css --routing
 cd my-app
 ```
 
