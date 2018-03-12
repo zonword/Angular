@@ -7,16 +7,14 @@ var minifyCss 	= require('gulp-minify-css');
 var rename 	= require("gulp-rename");
 var uglify 	= require('gulp-uglify-es').default;
 
-var baseDirs 	  = { app : './App/', dist: './App/dist/' }
+var baseDirs 	  = { app : './main/', dist: './main/dist/' }
 var startupScript = baseDirs.app+'server.js';
 
 gulp.task('group', function () {
 	return gulp.src([
-		baseDirs.app+'/main/js/app.js',
-		baseDirs.app+'/main/factory/Fletcher.js',
-		baseDirs.app+'/main/component/Intervention/InterCtrl.js',
-		baseDirs.app+'/main/component/Materiel/MaterielCtrl.js',
-		baseDirs.app+'/main/component/Menu/NavCtrl.js'
+		baseDirs.app+'js/App.js',
+		baseDirs.app+'factory/MainFactory.js',
+		baseDirs.app+'vue/page1/list/Page1ListCtrl.js'
 	])
 		.pipe(concat('All.js'))
 		.pipe(gulp.dest(baseDirs.dist));
