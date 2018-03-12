@@ -23,14 +23,14 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    1. [Controller](#controller) Répétition d'évenement
 
 ## pre-requis
-   Dans un premier temps, il faut que je m'adapte à mon environement de DEV qui m'est fournis dans la société,
-   Mais dans la casie totatilé des entreprises, des nouvelle technos comme `container`, `nodejs`, sont souvent inconnue, les grosse société préférent s'orienté vers du dev payant comme windev, et faire du glisser déposé pour ne pas à avoir à coder une seul ligne, en therme d'OS c'est la même chose on est parfois sur du systeme de dernière génération car les solutions présente trop compliqué à tout recoder dans un langage autre du COBOL etc y fonctionne déja (ERP, etc), ces programme aussi nécéssaire que indispensable sont sur des systeme qui ne plus maintenu par les developpeur de ces OS
+
+   Dans un premier temps, il faut s'adapter à sont environement de DEV
    
    ### Sécurité
-   Le DEV n'a pas forcément concience de la sécurité SYSTEM, et ce retrouve restreint, voir interdit de tout acces à l'exterieur, et se retrouve à devoir tout développer dans le cloud et laisser le SYSTEM installer une fois le projet soit terminé, chose qui est complétement corrigé avec `container` qui arrive à consilier DEV et SYSTEM, si le choix de ces techno sont accépté par les deux
+   Le DEV n'a pas forcément concience de la sécurité SYSTEM, il faut pouvoir s'adapter à tout situation
    
    #### PROXY
-   Donnée les acces a tout les projet l'acces vers l'exterieur n'est pas conceillé, il faut pouvoir ciblé les projet qui on besoin d'atteinte les reseaux extérieur à l'entreprise, une fois les adresses IP des proxy sont donnée par les équipes il faut pouvoir le faire localement au projet
+   Il faut creer un fichier à la racine de chaque projet
    
    .bowerrc
    ```Javascript
