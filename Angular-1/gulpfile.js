@@ -1,14 +1,14 @@
 var browserSync = require('browser-sync').create();
-var gulp 		    = require("gulp");
-var clean 		  = require('gulp-clean');
-var concat 		  = require('gulp-concat');
-var nodemon 	  = require('gulp-nodemon');
+var gulp 	= require("gulp");
+var clean 	= require('gulp-clean');
+var concat 	= require('gulp-concat');
+var nodemon 	= require('gulp-nodemon');
 var minifyCss 	= require('gulp-minify-css');
-var rename 		  = require("gulp-rename");
-var uglify 		  = require('gulp-uglify-es').default;
+var rename 	= require("gulp-rename");
+var uglify 	= require('gulp-uglify-es').default;
 
-var baseDirs 		    = { app : './App/', dist: './App/dist/' }
-var startupScript 	= baseDirs.app+'server.js';
+var baseDirs 	  = { app : './App/', dist: './App/dist/' }
+var startupScript = baseDirs.app+'server.js';
 
 gulp.task('group', function () {
 	return gulp.src([
