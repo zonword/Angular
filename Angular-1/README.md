@@ -12,6 +12,7 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
 ## Sommaire
 
    1. [Pres-requis](#pres-requis) pre-requis
+   1. [Gulp](#gulp) gulp
    1. [Package](#package) package
    1. [Bower](#bower) Bower
    1. [Server](#server) Permet de lancer mon projet
@@ -43,6 +44,14 @@ Voici quelque astuces que je dévoile ici pour la creation de mes projet
    ```BATCH
       proxy=http://mon-proxy.com:port
       https-proxy=http://mon-proxy.com:port
+   ```
+
+## Gulp
+   Vous permettra de concatener tout votre javascript dans un seul et même fichier, et le minimifier, tout le code est dans le gulpfile.js
+   A chaque controller directive factory crée en .js il faudra le rajouter dans le gulfile.js pour l'importer dans le projet
+   
+   ```Bash
+   gulp all
    ```
 
 ## Package
