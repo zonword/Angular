@@ -33,7 +33,7 @@ cd my-app
 
 ### Installer bootstrap
 ```batch
-npm install --save bootstrap
+npm install --save bootstrap@3.3.7
 ```
   - Modifier dans `angular-cli.json` "styles" rajouter le lien complet
   - Modifier dans `app/app.module.ts` bootstrap : [AppComponent]
