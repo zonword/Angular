@@ -27,7 +27,7 @@ npm install -g @angular/cli
 ### Creation d'un projet
 
 ```batch
-ng new my-app --style=css --routing
+ng new mon-projet --style=scss --skip-tests=true
 cd my-app
 ```
 
