@@ -1,11 +1,10 @@
 # Angular
 
-Angular est amené à evoluer rapidement, 
-je ne suis pas adepde de formation en continue à chercher à travailler absolument sur les dernière techno, 
-je n'ais déja pas encore trouver la meilleur solution pour développé sur angular 1 que de nouvelle version vont sortir tout les septembres de chaque mois.
+Je suis tombé amoureux de angular 1 lors de ça sortie,
+Quand j'ai vue les amélioratoins, la simplicité par rapport à jquery, j'ai vue tout les cours sur youtube
+en passant par angularfire avec firebase, l'implémentation de socket.io pour faire la même chose en local
+j'ai suivi la plupart des MOOC et autre formation payante.
 
+Passer de force sur la version 2 qui est maintenant la 6 ou la 7, que j'ai regardé vaguement sans grande conviction.
 
-Mois qui n'avais pas encore mes marque sur ionic n'ont plus que y'a déja le 2 et la 3,
-
-Donc Angular-1 seras amené à évoluer régulièrement, 
-mais les version suivante seront dans mes temps perdu mais je décourage tres vite, sur le fait d'apprendre le TypeScript
+pour moi le front c'est React, je laisse ce depot en public, si cela peux vous aidez, je ne metterais surement plus à jour ce dépot.
